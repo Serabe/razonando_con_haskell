@@ -19,7 +19,7 @@ aLista :: Integer -> [Integer]
 
 -- Ejemplo 1.13
 primero2 :: (Integer, Integer) -> Integer
-primero (x,_) = x
+primero2 (x,_) = x
 
 primero3 :: (Integer, Integer, Integer) -> Integer
 primero3(x,_,_) = x
