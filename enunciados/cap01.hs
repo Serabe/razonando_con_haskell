@@ -1,9 +1,19 @@
+{-
+ - Capítulo 1
+ - Introducción a Haskell
+ -}
+
+{-
+ - NOTAS:
+ - No puedes usar funciones de Prelude como
+ - map, foldr, foldl, etc
+ -}
 -- Ejercicio 1.12:
 -- Define una función
 aEntero :: [Integer] -> Integer
 -- que transforme una lista de dígitos en el correspondiente valor entero:
 -- aEntero [2,3,4] => 234
--- 
+--
 -- Define la función recíproca aLista:
 aLista :: Integer -> [Integer]
 
@@ -52,7 +62,7 @@ signo x
   | x < 0     = -1
   | x == 0    =  0
   | otherwise =  1
-  
+
 -- Ejemplo 1.22
 maxEnt :: Integer -> Integer -> Integer
 maxEnt x y = if x > y then x else y
