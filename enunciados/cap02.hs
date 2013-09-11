@@ -25,7 +25,7 @@ alCuadrado = potencia 2
 dosVeces :: (Integer -> Integer) -> Integer -> Integer
 dosVeces f x = f f x
 
--- Ejemplo 2.4
+-- Ejemplo 2.4 
 derivada :: (Float -> Float) -> Float -> Float
 derivada f x = (f(x+h) - f x)/h
   where
