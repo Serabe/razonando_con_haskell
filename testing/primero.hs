@@ -1,6 +1,6 @@
 sucesor :: Integer -> Integer
 sucesor x = x + 1
 
-main ::
+main :: Void
 main sucesor 3
 
